@@ -1,0 +1,11 @@
+{
+    "name": "workspace",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "remorses",
+    "license": "MIT",
+    "scripts": {
+        "reproduce": "yarn node ../script.js",
+        "reproduce-require": "node -r ./.pnp.js ../script.js"
+    }
+}

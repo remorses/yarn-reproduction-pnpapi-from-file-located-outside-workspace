@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "reproduce": "cd workspace && yarn reproduce"
+    }
+}
