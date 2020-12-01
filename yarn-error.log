@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/morse/.nvm/versions/node/v10.21.0/bin/node /Users/morse/Documents/GitHub/yarn-reproduction-pnpapi-from-file-located-outside-workspace/.yarn/releases/yarn-1.22.10.cjs set version 2.1.2
+
+PATH: 
+  /Users/morse/google-cloud-sdk/bin:/usr/local/opt/bison/bin:/Users/morse/.nvm/versions/node/v10.21.0/bin:/usr/local/sbin:/usr/local/opt/binutils/bin:/Users/morse/.cargo/bin:/usr/local/bin/madmom:/Users/morse/.local/bin:/Users/morse/go/bin:/Users/morse/.pyenv/shims:/Users/morse/.pyenv:/usr/local/bin/:/Users/morse/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/morse/google-cloud-sdk/bin:/usr/local/opt/bison/bin:/Users/morse/.nvm/versions/node/v10.21.0/bin:/usr/local/sbin:/usr/local/opt/binutils/bin:/Users/morse/.cargo/bin:/usr/local/bin/madmom:/Users/morse/.local/bin:/Users/morse/go/bin:/Users/morse/.pyenv/shims:/Users/morse/.pyenv:/usr/local/bin/:yarn global bin:yarn global bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.21.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Release not found: 2.1.2
+      at /Users/morse/Documents/GitHub/yarn-reproduction-pnpapi-from-file-located-outside-workspace/.yarn/releases/yarn-1.22.10.cjs:98328:17
+      at Generator.next (<anonymous>)
+      at step (/Users/morse/Documents/GitHub/yarn-reproduction-pnpapi-from-file-located-outside-workspace/.yarn/releases/yarn-1.22.10.cjs:310:30)
+      at /Users/morse/Documents/GitHub/yarn-reproduction-pnpapi-from-file-located-outside-workspace/.yarn/releases/yarn-1.22.10.cjs:321:13
+      at process._tickCallback (internal/process/next_tick.js:68:7)
+
+npm manifest: 
+  {
+      "scripts": {
+          "reproduce": "cd workspace && yarn reproduce"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
